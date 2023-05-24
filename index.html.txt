@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>PurpleQube</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon1.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/royal-preload.css" />
+	<!-- REVOLUTION SLIDER CSS -->
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">   
+    <!-- REVOLUTION NAVIGATION STYLE -->
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
+
+    <style>
+        .contact-details p{
+            font-size: 14px;
+            margin: 0 !important;  
+            color: #fff;
+        }   
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 20px;
+        }
+
+        .sales-icon{
+            width: 20px;
+            height: 20px;
+            color: red;
+        }
+
+        .main-navigation {
+            border-right: 1px solid #ffffff73;
+            padding-right: 155px;
+        }
+        img {
+           height: auto;
+           max-width: 300px;
+		  
+       }
+       #site-logo img {
+       width: 170px;
+	    padding:12px;
+		 background:white;
+       }
+       .ft-list-icon .twitter {
+       color: #4CCEF9;
+        font-size: 25px;
+      }
+      .ft-list-icon .facebook {
+       color: #25E;
+       font-size: 25px;
+      }
+      .ft-list-icon .linkedin {
+        color: #3292FF;
+        font-size: 25px;
+      }
+      .ft-list-icon .instagram {
+       color: #FF9000;
+       font-size: 25px;
+      }
+      .site-header-10 .main-navigation ul > li.menu-item-has-children > a:after {
+  color: #18171700 ;
+  
+}
+.footer-menu ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2a2626d9;
+}
+.footer-menu ul li a:visited {
+  
+  color:#2a2626d9 ;
+}
+.i10 p {
+  color:#6d6d6d;
+  font-family: "Inter",Sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sub-ft-i9 h2 {
+    color:#97a5dd;
+    font-family: "Poppins",Sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 64px;
+    margin-bottom: 15px;
+}
+.ft-widget-i9 h4 {
+    color:#97a5dd ;
+    font-family: "Poppins",Sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.ft-widget-i9 a {
+    font-family: "Poppins",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#97a5dd ;
+    line-height: 34px;
+}
+.copyright-text.i9 {
+    text-align: right;
+    color:#97a5dd ;
+    font-family: "Poppins",Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.main-navigation ul > li > a:hover {
+  color: #43baff;
+}
+.main-navigation > ul > li:before {
+  position: absolute;
+  height: 3px;
+  width: 0;
+  bottom: -1px;
+  right: 0;
+  background: #43baff;
+  content: "";
+  display: block;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+
+    </style>
+</head>
+
+<body class="royal_preloader i10">
+    <div id="page" class="site">
+        <header id="site-header" class="site-header site-header-10 header-overlay sticky-header">
+            <div class="header-topbar">
+                <div class="octf-area-wrap">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="topbar-info">
+                                    <li><i class="fas fa-envelope"></i><a href="mailto:engitech@mail.net"> engitech@mail.net</a></li>
+                                    <li><i class="fas fa-clock"></i> Mon - Sat: 8.00 am - 7.00 pm</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <div class="topbar-right">
+                                    <ul class="extra-text">
+                                        <li>We are creative, ambitious and ready for challenges! <a href="contact.html">Hire Us</a></li>
+                                    </ul>
+                                    <ul class="social-list">
+                                        <li><a href="http://twitter.com" target="_self"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="http://facebook.com" target="_self"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="http://linkedin.com" target="_self"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="http://instagram" target="_self"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="octf-main-header">
+                <div class="octf-area-wrap">
+                    <div class="container octf-mainbar-container">
+                        <div class="octf-mainbar">
+                            <div class="octf-mainbar-row octf-row">
+                                <div class="octf-col logo-col i8">
+                                    <div id="site-logo" class="site-logo">
+                                        <a href="index.html">
+                                            <img src="images/logo1.png" alt="purpleQube" class="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="octf-col menu-col">
+                                    <nav id="site-navigation" class="main-navigation text-upp">
+                                        <ul class="menu">
+										<li class="menu-item-has-children current-menu-item current-menu-ancestor">                 
+                                            <li class="menu-item-has-children"><a href="#">Industries</a> 
+                                                                                                          
+                                                <ul class="sub-menu">
+                                                    
+                                                                                                      
+												    <li class="menu-item-has-children"><a href="#">Banking&Financial</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Corporate&Commercial Banking</a></li>
+
+                                                            <li><a href="#">Private Banking</a></li>
+
+															<li><a href="#">Cards&Payments</a></li>
+			
+															<li><a href="#">Capital Markets&Wealth Management</a></li>
+
+															<li><a href="#">Blockchain Solutions for Banking</a></li>
+															
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Government</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">State&Local Government</a></li>
+
+                                                            <li><a href="#">Federal&National Government</a></li>
+														   <li><a href="#">Government Solution Offerings</a></li>
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Healthcare</a> 
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Healthcare Services</a></li>
+
+                                                            <li><a href="#">Healthcare Industry Solutions</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Hitech</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Hitech Focus Area</a></li>
+
+                                                            <li><a href="#">Hitech Services</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Insurance</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Life&Annuities </a></li>
+
+                                                            <li><a href="#">Property & Causality Insurance</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Manufacturing</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Manufacturing Industry Services</a></li>
+
+                                                            <li><a href="#">Process Manufacturing</a></li>
+															 <li><a href="#">Industrial Manufacturing</a></li>
+
+															  <li><a href="#">C Ahead Manufacturing Expertise</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Media & Entertainment</a>
+                                                       <ul class="sub-menu">
+                                                         
+                                                    <li><a href="#">Broadcasting</a></li>
+                                                    <li><a href="#">Entertainment</a></li>
+													<li><a href="#">Print & Publishing</a></li>
+													<li><a href="#">Advertising</a></li>
+													<li><a href="#">Gaming</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Retail</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Fashion & Apparel</a></li>
+
+                                                            <li><a href="#">Grocery & General Merchandise</a></li>
+
+															 <li><a href="#">Speciality Retail</a></li>
+
+															  <li><a href="#">Retail Offerings</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="#">Telecom
+
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Telecom Industry Services</a></li>
+                                                           
+                                                        </ul>
+                                                    </li>
+                                                   </ul>
+												   </li>
+                                            <li class="menu-item-has-children"><a href="#">Services</a>
+                                                <ul class="sub-menu">
+												<li class="menu-item-has-children"><a href="#">Consulting</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Business Resilience</a></li>
+
+
+                                                            <li><a href="#">Customer Relationship Management</a></li>
+
+															 <li><a href="#">Digital Supply Chain Transformation</a></li>
+
+															  <li><a href="#">Digital Transformation</a></li>
+															  <li><a href="#">Enterprise Application Services</a></li>
+															  <li><a href="#">Enterprise Architecture Services</a></li>
+
+															  <li><a href="#">IT Strategy</a></li>
+
+															  <li><a href="#">Risk Compliance & Governance</a></li>
+
+                                                        </ul>
+                                                    </li>
+													<li class="menu-item-has-children"><a href="#">Technology</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">ADMS</a></li>
+                                                            <li><a href="#">Enterprise Architecture</a></li>
+															<li><a href="#">Infrastructure</a></li>
+															<li><a href="#">Integration</a></li>
+															<li><a href="#">Security</a></li>
+															<li><a href="#">Testing</a></li>
+
+                                                        </ul>
+                                                    </li>
+													<li class="menu-item-has-children"><a href="#">NewGen Tech </a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="#">Analytics&Data</a></li>
+
+
+                                                            <li><a href="#">Artificial Intelligence</a></li>
+
+															 <li><a href="#">Blockchain</a></li>
+													  <li><a href="#">Data Science</a></li>
+															   <li><a href="#">Digital</a></li>
+													    <li><a href="#">Industry 4.0</a></li>
+														 <li><a href="#">Internet of Things</a></li>
+																 <li><a href="#">Mobility</a></li>
+														  <li><a href="#">Robotics</a></li>
+														  <li><a href="#">Social</a></li>
+																	<li><a href="">UI </a></li>
+
+                                                        </ul>
+                                                    </li>
+																		
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="#">Solutions</a>
+                                                <ul class="sub-menu">
+                                                      <li><a href="#">ASANA </a></li>
+                                                        <li><a href="#">Cloud</a></li>
+                                                        <li><a href="#">IBM Services</a></li>
+                                                        <li><a href="#">Microsoft</a></li>
+                                                        <li><a href="#">Open Source</a></li>
+                                                        <li><a href="#">Oracle </a></li>
+                                                        <li><a href="#">Salesforce </a></li>
+                                                        <li><a href="#">SAP </a></li>
+                                                        <li><a href="#">SAS</a></li>
+                                                        <li><a href="#">UI / UX </a></li>
+                                                        <li><a href="#">Workday</a></li>
+                                                
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="#">Media Center</a>
+                                                <ul class="sub-menu">
+                                                     <li><a href="#">PRESS RELEASES </a></li>
+                                                     <li><a href="#">MEDIA COVERAGE </a></li>
+                                                     <li><a href="#">BLOG</a></li>
+                                                </ul>
+                                            </li>
+                                        </nav>
+                                </div>
+                                <div class="octf-col cta-col text-right">
+                                <!-- Call To Action -->
+                                    <div class="octf-btn-cta">
+
+                                        <div class="octf-header-module">
+                                            <div class="btn-cta-group btn-cta-header">
+                                                <a class="octf-btn btn-header-i10" href="#">Login</a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>                              
+                                </div>
+                                <div class="octf-header-module">
+                                    <div class="btn-cta-group contact-header">
+                                        <i class="fas fa-phone"></i>
+                                        <div class="cinfo-header">
+                                            <span></span>
+                                            <span class="main-text"><a href="tel:+1-800-456-478-23">+1-800-456-478-23</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_mobile">
+                <div class="container">
+                    <div class="mlogo_wrapper clearfix">
+                        <div class="mobile_logo">
+                            <a href="index.html">
+                                <img src="images/logo1.png" alt="purpleqube">
+                            </a>
+                        </div>
+                        <div id="mmenu_toggle">
+                            <button></button>
+                        </div>
+                    </div>
+                    <div class="mmenu_wrapper">
+                        <div class="mobile_nav collapse">
+                            <ul id="menu-main-menu" class="mobile_mainmenu">
+                                <li class="menu-item-has-children current-menu-item current-menu-ancestor">
+                                                                                                                                                     
+                                  <li class="menu-item-has-children"><a href="#">Industries</a> 
+                                                                                                          
+                                                <ul class="sub-menu">
+                                                    
+                                                   
+												    <li class="menu-item-has-children"><a href="shop.html">Banking&Financial</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Corporate&Commercial Banking</a></li>
+
+                                                            <li><a href="cart-page.html">Private Banking</a></li>
+
+															<li><a href="cart-page.html">Cards&Payments</a></li>
+			
+
+															<li><a href="cart-page.html">Capital Markets&Wealth Management</a></li>
+
+															<li><a href="cart-page.html">Blockchain Solutions for Banking</a></li>
+
+															
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Government</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">State&Local Government</a></li>
+
+                                                            <li><a href="cart-page.html">Federal&National Government</a></li>
+														   <li><a href="cart-page.html">Government Solution Offerings</a></li>
+
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Healthcare</a> 
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Healthcare Services</a></li>
+
+                                                            <li><a href="cart-page.html">Healthcare Industry Solutions</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Hitech</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Hitech Focus Area</a></li>
+
+                                                            <li><a href="cart-page.html">Hitech Services</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Insurance</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Life&Annuities </a></li>
+
+                                                            <li><a href="cart-page.html">Property & Causality Insurance</a></li>
+
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Manufacturing</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Manufacturing Industry Services</a></li>
+
+                                                            <li><a href="cart-page.html">Process Manufacturing</a></li>
+															 <li><a href="cart-page.html">Industrial Manufacturing</a></li>
+
+															  <li><a href="cart-page.html">C Ahead Manufacturing Expertise</a></li>
+
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Media & Entertainment</a>
+                                                       <ul class="sub-menu">
+                                                         
+                                                    <li><a href="checkout-page.html">Broadcasting</a></li>
+                                                    <li><a href="cart-page.html">Entertainment</a></li>
+													<li><a href="cart-page.html">Print & Publishing</a></li>
+													<li><a href="cart-page.html">Advertising</a></li>
+													<li><a href="cart-page.html">Gaming</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Retail</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Fashion & Apparel</a></li>
+
+                                                            <li><a href="cart-page.html">Grocery & General Merchandise</a></li>
+
+															 <li><a href="cart-page.html">Speciality Retail</a></li>
+
+															  <li><a href="cart-page.html">Retail Offerings</a></li>
+
+                                                        </ul>
+                                                    </li>
+													 <li class="menu-item-has-children"><a href="shop.html">Telecom
+
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Telecom Industry Services</a></li>
+                                                           
+                                                        </ul>
+                                                    </li>
+                                                   </ul>
+												   </li>
+                                            <li class="menu-item-has-children"><a href="#">Services</a>
+                                                <ul class="sub-menu">
+												<li class="menu-item-has-children"><a href="shop.html">Consulting</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Business Resilience</a></li>
+
+
+                                                            <li><a href="cart-page.html">Customer Relationship Management</a></li>
+
+															 <li><a href="cart-page.html">Digital Supply Chain Transformation</a></li>
+
+															  <li><a href="cart-page.html">Digital Transformation</a></li>
+															  <li><a href="cart-page.html">Enterprise Application Services</a></li>
+															  <li><a href="cart-page.html">Enterprise Architecture Services</a></li>
+
+															  <li><a href="cart-page.html">IT Strategy</a></li>
+
+															  <li><a href="cart-page.html">Risk Compliance & Governance</a></li>
+
+                                                        </ul>
+                                                    </li>
+													<li class="menu-item-has-children"><a href="shop.html">Technology</a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">ADMS</a></li>
+                                                            <li><a href="cart-page.html">Enterprise Architecture</a></li>
+															<li><a href="cart-page.html">Infrastructure</a></li>
+															<li><a href="cart-page.html">Integration</a></li>
+															<li><a href="cart-page.html">Security</a></li>
+															<li><a href="cart-page.html">Testing</a></li>
+
+                                                        </ul>
+                                                    </li>
+													<li class="menu-item-has-children"><a href="shop.html">NewGen Tech </a>
+
+                                                        <ul class="sub-menu">
+                                                           
+                                                            <li><a href="checkout-page.html">Analytics&Data</a></li>
+
+
+                                                            <li><a href="cart-page.html">Artificial Intelligence</a></li>
+
+															 <li><a href="cart-page.html">Blockchain</a></li>
+													  <li><a href="cart-page.html">Data Science</a></li>
+															   <li><a href="cart-page.html">Digital</a></li>
+													    <li><a href="cart-page.html">Industry 4.0</a></li>
+														 <li><a href="cart-page.html">Internet of Things</a></li>
+																 <li><a href="cart-page.html">Mobility</a></li>
+														  <li><a href="cart-page.html">Robotics</a></li>
+														  <li><a href="cart-page.html">Social</a></li>
+																	<li><a href="cart-page.html">UI </a></li>
+
+                                                        </ul>
+                                                    </li>
+																								
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="#">Solutions</a>
+                                                <ul class="sub-menu">
+                                                      <li><a href="portfolio-masonry.html">ASANA </a></li>
+                                                        <li><a href="portfolio-masonry.html">Cloud</a></li>
+                                                        <li><a href="portfolio-masonry.html">IBM Services</a></li>
+                                                        <li><a href="portfolio-masonry.html">Microsoft</a></li>
+                                                        <li><a href="portfolio-masonry.html">Open Source</a></li>
+                                                        <li><a href="portfolio-masonry.html">Oracle </a></li>
+                                                        <li><a href="portfolio-masonry.html">Salesforce </a></li>
+                                                        <li><a href="portfolio-carousel.html">SAP </a></li>
+                                                        <li><a href="portfolio-carousel.html">SAS</a></li>
+                                                        <li><a href="portfolio-carousel.html">UI / UX </a></li>
+                                                        <li><a href="portfolio-carousel.html">Workday</a></li>
+                                                 
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="blog.html">Media Center</a>
+                                                <ul class="sub-menu">
+                                                     <li><a href="blog.html">PRESS RELEASES </a></li>
+                                                     <li><a href="blog-grid.html">MEDIA COVERAGE </a></li>
+                                                     <li><a href="post.html">BLOG</a></li>
+                                                </ul>
+                                            </li>
+                                        
+                                       
+                                    </nav>
+                                </div>
+                              
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
